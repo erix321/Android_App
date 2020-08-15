@@ -1,0 +1,9 @@
+<resources>
+    <string name="app_name">Light Shadow Language</string>
+    <string name="opcion_1">Opción No 1</string>
+    <string name="opcion_2">Opción No 2</string>
+    <string name="opcion_3">Opción No 3</string>
+    <string name="opcion_4">Opción No 4</string>
+    <string name="pregunta">Pregunta por Defecto</string>
+    <!--<string name="prueba">No mms wey</string>-->
+</resources>

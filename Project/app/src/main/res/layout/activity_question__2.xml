@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Question_Activity_2">
+
+    <TextView
+        android:id="@+id/view_pregunta_2"
+        android:layout_width="318dp"
+        android:layout_height="112dp"
+        android:layout_marginTop="136dp"
+        android:text="@string/pregunta"
+        android:textSize="30sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.494"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <Button
+        android:id="@+id/btn_q2_3"
+        android:layout_width="314dp"
+        android:layout_height="70dp"
+        android:layout_marginTop="16dp"
+        android:onClick="Error"
+        android:text="@string/opcion_2"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/btn_q2_2" />
+
+    <Button
+        android:id="@+id/btn_q2_2"
+        android:layout_width="314dp"
+        android:layout_height="70dp"
+        android:layout_marginTop="16dp"
+        android:onClick="Acierto"
+        android:text="@string/opcion_3"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.494"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/btn_q2_1" />
+
+    <Button
+        android:id="@+id/btn_q2_4"
+        android:layout_width="314dp"
+        android:layout_height="70dp"
+        android:layout_marginTop="16dp"
+        android:onClick="Error"
+        android:text="@string/opcion_4"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.494"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/btn_q2_3" />
+
+    <Button
+        android:id="@+id/btn_q2_1"
+        android:layout_width="314dp"
+        android:layout_height="70dp"
+        android:layout_marginTop="32dp"
+        android:onClick="Error"
+        android:text="@string/opcion_1"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/view_pregunta_2" />
+</androidx.constraintlayout.widget.ConstraintLayout>
